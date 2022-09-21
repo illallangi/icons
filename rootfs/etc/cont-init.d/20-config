@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+set -e
+
+# rm -rf /etc/lighttpd
+mkdir -p /etc/lighttpd
+
+confd -onetime -backend env
+
+cat /etc/lighttpd/lighttpd.conf

@@ -1,0 +1,5 @@
+[template]
+src  = "lighttpd.conf.tmpl"
+dest = "/etc/lighttpd/lighttpd.conf"
+keys = [
+]
